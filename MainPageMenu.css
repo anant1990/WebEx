@@ -1,0 +1,91 @@
+#centeredcontent {
+	
+	position: absolute;
+	top: 130px;
+	left: 70%;
+	float: center;
+}
+
+.dropdown ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+.dropdown ul:after {
+		content: ""; clear: both; display: block;
+}
+
+.dropdown ul li {
+	float: left;
+}
+
+.dropdown ul li:hover p {
+			color: #fff;
+}
+
+.dropdown ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+.dropdown ul li p {
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+	}
+	
+.dropdown ul p:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f5975 40%);
+}
+
+.dropdown ul ul {
+	display:none;
+}
+
+.dropdown ul li:hover > ul {
+	display:block;
+}
+
+.dropdown ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+p {
+	margin: 0px;
+	width: 100px;
+	float: left;
+}
+
+.hm {
+	font-family: sans serif;
+	color: blue;
+	font-size: 20px;
+}
+
+#myname {
+	font-family: tahoma;
+	color: magenta;
+	font-size: 60px;
+}
+
+#myForm {
+	font-family: times new roman;
+	color: black;
+	font-size: 10 px;
+}
+
+.nameStyle {
+	top: -111px
+	font-family: tahoma;
+}
+
